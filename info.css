@@ -1,14 +1,24 @@
 .profile{
-    width:150px;
-    display: block;
+    width: 100px;
+    display:block;
     margin-left:auto;
     margin-right:auto;
 }
-.name{
-    font-size:30px;
-    font-family: gulim;
-    text-align: center;
+h1{
+    font-size:45px;
+    text-align:center;
+    border-bottom:1px solid gray;
+    margin:0px;
+    padding:20px;
 }
-.content{
-    pp
+ol{
+    border-right:1px solid gray;
+    width:100px;
+    height:1000px;
+    margin:0px;
+    padding:20px;
+}
+#grid{
+    display:grid;
+    grid-template-columns: 150px 1fr;
 }
